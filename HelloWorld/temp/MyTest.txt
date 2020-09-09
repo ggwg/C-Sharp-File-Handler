@@ -1,1 +1,8 @@
-WRITING STRING FROM START?
+One
+Two
+Three
+One
+Two
+Three
+Trying to write THIS string to the file!
+This is the second time I'm doing this!Line 3!Finally, the 4th line!!

@@ -8,22 +8,17 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             FileHandler fileHandler = new FileHandler(@"C:\Users\gavwu\source\repos\HelloWorld\HelloWorld\temp\MyTest.txt");
-            /*// fileHandler.setPath(@"C:\Users\gavwu\source\repos\HelloWorld\HelloWorld\temp\MyTest.txt");
-            fileHandler.clearFile();
             List<string> strList = new List<string>();
             strList.Add("One");
             strList.Add("Two");
             strList.Add("Three");
-            // fileHandler.displayFileContents();
             fileHandler.clearAndWriteStringArray(strList);
             fileHandler.appendStringLineArray(strList);
-            fileHandler.displayFileContents();*/
 
-            fileHandler.appendString("Trying to write THIS string to the file!");
+            fileHandler.appendStringLine("Trying to write THIS string to the file!");
             fileHandler.appendString("This is the second time I'm doing this!");
             fileHandler.appendString("Line 3!");
             fileHandler.appendString("Finally, the 4th line!!");
-            fileHandler.clearAndWriteString("WRITING STRING FROM START?");
             fileHandler.displayFileContents();
 
             // Prevent command window from closing prematurely
